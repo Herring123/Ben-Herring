@@ -7,6 +7,12 @@
 
     <%= stylesheet_link_tag 'application', media: 'all' %>
     <%#= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script>
+        ScrollReveal({ reset: true });
+    </script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
   </head>
   <body>
@@ -14,7 +20,7 @@
 
     <div class="top">
       <ul>
-        <li class="item">About</li>
+        <a href="#about-title"><li class="item">About</li></a>
         <li class="item">|</li>
         <li class="item">Skills</li>
         <li class="item">|</li>
@@ -36,6 +42,14 @@
   </div>
     <%= yield %>
     <%= javascript_include_tag 'application' %>
+    <%= javascript_include_tag "https://maps.googleapis.com/maps/api/js" %>
     <%= javascript_pack_tag 'application' %>
+    <%= javascript_pack_tag "map" %>
+    <%= javascript_include_tag "https://maps.googleapis.com/maps/api/js?libraries=places&key=#{ENV['GOOGLE_API_BROWSER_KEY']}" %>
+
+<script>ScrollReveal().reveal('.me', { delay: 300 });</script>
+<script>ScrollReveal().reveal('.lewagon', { delay: 300 });</script>
+<script>ScrollReveal().reveal('.last', { delay: 300 });</script>
+
   </body>
 </html>

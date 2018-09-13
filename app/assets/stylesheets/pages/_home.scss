@@ -1,1 +1,142 @@
 // Specific CSS for your home-page
+#about-title{
+  // text-align: center;
+  text-decoration: underline;
+  color:#0075A2;
+  text-align:center;
+  padding-top:20px;
+
+  // width: 150px;
+}
+
+.about{
+  // position:relative;
+  padding-left: 50px;
+
+}
+.profile-pic {
+  border-radius: 50%;
+  width:190px;
+  height: 190px;
+
+}
+
+.me{
+  display:flex;
+  // position:absolute;
+  // right:331px;
+  // top:30px;
+  padding-left:100px;
+  padding-top:40px;
+  padding-bottom:50px;
+
+
+}
+
+.paragraph{
+  width:600px;
+  padding-left:76px;
+  padding-top:25px;
+  border-top: 5px solid #0075A2;
+  border-right: 5px solid #0075A2;
+}
+
+.lewagon{
+  display:flex;
+  // position:absolute;
+  // right:160px;
+  // top:275px;
+  padding-left:267px;
+  padding-bottom: 50px;
+}
+
+.lewagoninfo{
+  padding-right:20px;
+  width:600px;
+  padding-top:25px;
+  border-left: 5px solid #0075A2;
+  padding-left:10px;
+
+}
+
+
+.last{
+  display:flex;
+  // position:absolute;
+  // bottom: -834px;
+  // right:331px;
+  padding-left:155px;
+  padding-top:0px;
+
+}
+
+.lastparagraph{
+  border-right: 5px solid #0075A2;
+  border-bottom: 5px solid #0075A2;
+  width:600px;
+   padding-left:76px;
+  padding-top:25px;
+}
+
+
+#skills-title{
+ text-decoration: underline;
+  color:white;
+  text-align:center;
+  padding-top:20px;
+}
+
+.skills{
+  background-color:#0075A2;
+  margin-top:45px;
+}
+
+
+
+.star{
+  width:75px;
+}
+
+
+
+.ruby-rails-html{
+  display:flex;
+  justify-content:space-around;
+  text-align:center;
+
+  padding-top: 20px;
+
+}
+
+
+
+
+.html-javascript{
+  display:flex;
+  text-align:center;
+  justify-content:space-around;
+  padding-bottom: 80px;
+
+}
+
+h3{
+  color:white;
+}
+
+#social-title{
+   text-decoration: underline;
+  color:#0075A2;
+  text-align:center;
+  padding-top:20px;
+}
+
+.connect{
+  width: 150px;
+}
+
+.all-socials{
+  display:flex;
+  justify-content:space-around;
+  padding-top: 50px;
+  padding-bottom:100px;
+}

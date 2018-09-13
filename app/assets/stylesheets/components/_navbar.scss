@@ -3,7 +3,7 @@
   // text-align: center;
 position: fixed;
 top: 15px;
-
+border-bottom: 2px solid white;
 }
 
 
@@ -21,3 +21,11 @@ font-family:'Raleway', sans-serif;
 }
 
 
+.top a{
+  text-decoration:none;
+  color:white;
+}
+
+.top a:hover{
+  color:#0075A2;
+}
