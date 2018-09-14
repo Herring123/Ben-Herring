@@ -89,6 +89,7 @@
 .skills{
   background-color:#0075A2;
   margin-top:45px;
+
 }
 
 
@@ -115,7 +116,7 @@
   display:flex;
   text-align:center;
   justify-content:space-around;
-  padding-bottom: 80px;
+  padding-bottom: 100px;
 
 }
 
@@ -132,6 +133,12 @@ h3{
 
 .connect{
   width: 150px;
+ transition: all 0.3s;
+}
+
+.connect:hover{
+  opacity: 0.5;
+  margin-top: -10px;
 }
 
 .all-socials{
@@ -140,3 +147,57 @@ h3{
   padding-top: 50px;
   padding-bottom:100px;
 }
+
+h3 {
+ overflow: hidden;
+ text-align: center;
+}
+h3:before,
+h3:after {
+ background-color: white;
+ content: "";
+ display: inline-block;
+ height: 5px;
+ position: relative;
+ vertical-align: middle;
+ width: 15%;
+}
+h3:before {
+ right: 0.5em;
+ margin-left: -150%;
+}
+h3:after {
+ left: 0.5em;
+ margin-right: -150%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
