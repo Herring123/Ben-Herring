@@ -8,7 +8,7 @@
     <%= stylesheet_link_tag 'application', media: 'all' %>
     <%#= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
   <script src="https://unpkg.com/scrollreveal"></script>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
         ScrollReveal({ reset: true });
     </script>
@@ -24,9 +24,7 @@
         <li class="item">|</li>
         <a href="#skills-title"><li class="item">Skills</li></a>
         <li class="item">|</li>
-        <li class="item">Where?</li>
-        <li class="item">|</li>
-        <li class="item">Contact</li>
+        <a href="#social-title"><li class="item">Contact</li></a>
       </ul>
     </div>
     <div class="banner-content">
@@ -46,10 +44,10 @@
     <%= javascript_pack_tag 'application' %>
     <%= javascript_pack_tag "map" %>
     <%= javascript_include_tag "https://maps.googleapis.com/maps/api/js?libraries=places&key=#{ENV['GOOGLE_API_BROWSER_KEY']}" %>
-
 <script>ScrollReveal().reveal('.me', { delay: 300 });</script>
 <script>ScrollReveal().reveal('.lewagon', { delay: 300 });</script>
 <script>ScrollReveal().reveal('.last', { delay: 300 });</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
   </body>
 </html>

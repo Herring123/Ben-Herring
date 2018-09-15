@@ -160,20 +160,23 @@ h3:after {
  height: 5px;
  position: relative;
  vertical-align: middle;
- width: 15%;
+ width: 100%;
 }
 h3:before {
  right: 0.5em;
- margin-left: -150%;
+ margin-left: -100%;
 }
 h3:after {
  left: 0.5em;
- margin-right: -150%;
+ margin-right: -100%;
 }
 
 
 
 
+.java{
+  width:250px;
+}
 
 
 
