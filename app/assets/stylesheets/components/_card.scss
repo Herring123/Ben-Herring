@@ -1,5 +1,5 @@
 .card {
-  height: 350px;
+  height: 300px;
   text-shadow: 0 1px 3px rgba(0,0,0,0.6);
   background-size: cover !important;
   background-position: center;
@@ -13,12 +13,21 @@
   margin-bottom:20px;*/
   /*padding-top:10px;*/
   transition: all 0.3s;
+  positon:relative;
 
 }
 
-.card:hover{
-  opacity: 0.5;
-  margin-top: -10px;
+.card .text{
+  visibility:hidden;
+}
+
+
+
+.card:hover .text{
+  visibility: visible;
+  /*opacity: 0.5;*/
+  /*margin-top: -10px;*/
+  /*background-color: black;*/
   }
 
 .card-user {
@@ -62,4 +71,8 @@
   opacity: 0.1;
 }
 
+.button-length{
+  width:361px;
+  height:40px;
+}
 
