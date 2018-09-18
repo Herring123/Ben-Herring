@@ -4,3 +4,7 @@ loadDynamicBannerText();
 
 import { scroll } from '../components/scroll';
 scroll();
+
+
+import { initUpdateNavbarOnScroll } from '../components/navbar';
+initUpdateNavbarOnScroll();

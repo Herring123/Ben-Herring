@@ -9,22 +9,25 @@
   border-right: 20px solid white;
   border-left: 20px solid white;
   border-bottom: 50px solid white;
- /* margin-top:30px;
-  margin-bottom:20px;*/
-  /*padding-top:10px;*/
+
   transition: all 0.3s;
   positon:relative;
 
+
 }
 
+.card:hover {
+  /*opacity:0;*/
+  /*background-color: white;*/
+}
 .card .text{
   visibility:hidden;
 }
 
-
-
 .card:hover .text{
   visibility: visible;
+  opacity:1;
+
   /*opacity: 0.5;*/
   /*margin-top: -10px;*/
   /*background-color: black;*/
@@ -51,11 +54,14 @@
 }
 .card-description h2 {
   font-size: 24px;
+  /*color:#0075A2;*/
+  color:#7CC6FE;
+  font-weight: bold;
 }
 .card-description p {
   font-size: 14px;
-  opacity: 0.7;
-  font-weight: lighter;
+  /*opacity: 0.7;*/
+  font-weight: bold;
 }
 .card-link {
   position: absolute;
@@ -68,7 +74,7 @@
   opacity: 0;
 }
 .card-link:hover {
-  opacity: 0.1;
+  /*opacity: 0.1;*/
 }
 
 .button-length{
