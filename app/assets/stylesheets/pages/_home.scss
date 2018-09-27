@@ -89,6 +89,7 @@
   color:white;
   text-align:center;
   padding-top:20px;
+  margin-top:0px;
 }
 
 .skills{
@@ -192,12 +193,24 @@ h3:after {
 }
 
 
+.cv{
+  text-align:center;
+  margin-top:80px;
+}
 
+.btn-primary{
+  font-size:30px;
+}
 
+.size{
+  // height:800px;
+  // padding-bottom:100px;
+  // width: 100px;
+}
 
-
-
-
+.modal-body{
+  padding-top: 200px;
+}
 
 // @media only screen and (max-width: 600px) {
 //     .profile-pic{
@@ -205,8 +218,6 @@ h3:after {
 //         height:50px;
 //     }
 // }
-
-
 
 
 

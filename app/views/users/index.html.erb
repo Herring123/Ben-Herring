@@ -78,10 +78,24 @@
 </div>
 
 
+<div class="cv">
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Résumé</button>
+</div>
+
+<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content size">
+        <div class="modal-body">
+          <%= image_tag ("cv.png"), class: "img-responsive" %>
+            <!-- <img src="assets/images/cv.png" class="img-responsive"> -->
+        </div>
+    </div>
+  </div>
+</div>
+
 <div class="skills">
  <h2 id="skills-title">Skills </h2>
-
-
   <div class="ruby-rails-html">
     <div>
       <h3>Ruby</h3>
@@ -176,7 +190,6 @@
 
 
 <script>
-
 // window.onscroll = function (e) {
   $(window).scroll(function() {
   $('.progress-wrap').each(function(){
@@ -212,9 +225,6 @@
       }, animationLength);
   }
   })
-
-
-
 </script>
 
 
