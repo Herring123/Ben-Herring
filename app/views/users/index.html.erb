@@ -194,6 +194,12 @@
 
 
 <script>
+
+//   $(document).on('scroll', function() {
+//     if( $(this).scrollTop() >= $('#skills-title').position().top ) {
+//         moveProgressBar();
+//     }
+// });
 // window.onscroll = function (e) {
   $(window).scroll(function() {
   $('.progress-wrap').each(function(){
@@ -201,7 +207,6 @@
     bar = $(this).children('.progress-bar');
     moveProgressBar(percent, bar);
 });
-
   // on browser resize...
   $(window).resize(function() {
     $('.progress-wrap').each(function(){
@@ -210,11 +215,7 @@
         moveProgressBar(percent, bar);
     });
   });
-
   // SIGNATURE PROGRESS
-
-
-
 // $(window).scroll(function() {
   function moveProgressBar(percent, bar) {
       var getPercent = (percent.data('progress-percent') / 100);
